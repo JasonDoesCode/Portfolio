@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter',
+        sans-serif;
+}
+
+.container {
+    max-width: 70rem;
+    min-width: none;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 10rem;
+}
+
+.main {
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-message {
+    margin-top: 1rem;
+}
