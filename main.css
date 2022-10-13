@@ -24,7 +24,7 @@ nav {
 }
 
 .main {
-    margin-top: 5rem;
+    margin-top: 10rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,53 @@ nav {
 
 .title-message {
     margin-top: 1rem;
+}
+
+.projects {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.buttons {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: .75rem 1rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+
+.tags a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: .75rem 1rem;
+    border-radius: 2rem;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.resume {
+    margin-top: 5rem;
+    width: 8rem;
+    text-align: center;
+    align-self: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
 }
