@@ -16,11 +16,17 @@
 header {
     display: flex;
     justify-content: space-between;
+    padding-top: 1rem;
 }
 
 nav {
     display: flex;
     gap: 10rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .main {
@@ -44,6 +50,7 @@ nav {
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
 }
 
 .cards {
@@ -83,8 +90,49 @@ nav {
     align-self: center;
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.about p {
+    margin-top: 1rem;
+}
+
+.callout {
+    width: 25rem;
+    align-self: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.contact h3 {
+    margin-bottom: 1rem;
+}
+
+.contact .subhead {
+    font-weight: 400;
+}
+
+.subhead span {
+    font-style: italic;
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
     width: 20rem;
+    align-self: center;
+}
+
+.contact form .button {
+    width: 6rem;
+    border: none;
+    align-self: center;
+    margin-top: 1rem;
 }
