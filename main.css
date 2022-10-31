@@ -216,3 +216,7 @@ nav a {
     align-self: center;
     margin-top: 1rem;
 }
+
+form textarea {
+    height: 40rem;
+}
