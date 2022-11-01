@@ -210,6 +210,14 @@ nav a {
     border: none;
 }
 
+.contact-area {
+    margin-top: .5rem;
+    height: 8rem;
+    padding: .75rem;
+    border-radius: 1rem;
+    resize: none;
+}
+
 .contact form .button {
     width: 6rem;
     border: none;
