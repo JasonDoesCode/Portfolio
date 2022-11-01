@@ -228,3 +228,7 @@ nav a {
 form textarea {
     height: 40rem;
 }
+
+form button {
+    font-size: 1rem;
+}
