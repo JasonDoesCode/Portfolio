@@ -32,10 +32,10 @@ body {
     font-size: 2rem;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
+    margin-top: 1rem;
     align-items: center;
 }
 
@@ -235,6 +235,14 @@ form button {
 }
 
 @media (max-width: 900px) {
+
+    .main {
+        font-size: .8rem;
+    }
+
+    .emoji {
+        height: 1.4rem;
+    }
 
     .cards {
         flex-direction: column;
